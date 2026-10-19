@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj": {}
+    "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj": {}
   },
   "projects": {
-    "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj": {
+    "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
         "projectName": "HolaAvalonia",
-        "projectPath": "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
+        "projectPath": "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
         "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\obj\\",
+        "outputPath": "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config"

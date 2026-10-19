@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0aBZaF/l2s=",
+  "dgSpecHash": "gz5cVdUwEok=",
   "success": true,
-  "projectFilePath": "c:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
+  "projectFilePath": "C:\\Users\\javie\\Documents\\AVALONIA\\HolaAvalonia\\HolaAvalonia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\javie\\.nuget\\packages\\avalonia\\12.1.4\\avalonia.12.1.4.nupkg.sha512",
     "C:\\Users\\javie\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.27548.20260419\\avalonia.angle.windows.natives.2.1.27548.20260419.nupkg.sha512",
