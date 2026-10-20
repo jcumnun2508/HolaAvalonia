@@ -5,12 +5,12 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="HolaAvalonia.MainWindow"
         Title="Holabot">
-        <Grid Background="{DynamicResource Theme_BackgroundBrush}">
-            <StackPanel Name="panel" Margin="20">
-                <TextBlock Name="saludo" Text="Hola, soy Javier" FontSize="24" Foreground="SteelBlue"/>
-                <Button Name="MyButton" Content="Púlsame" Click="OnButtonClick" Margin="0,10,0,0" />
-            </StackPanel>
-        </Grid>
+    <Grid Background="{DynamicResource Theme_BackgroundBrush}">
+        <StackPanel Name="panel" Margin="20">
+            <TextBlock Name="saludo" Text="Hola, soy Javier" FontSize="24" Foreground="SteelBlue"/>
+            <Button Name="MyButton" Content="Púlsame"  Margin="0,10,0,0" />
+        </StackPanel>
+    </Grid>
 
 
 </Window>
