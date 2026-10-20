@@ -9,7 +9,6 @@ public class VentanaCS : Window
 {
     // Campo para poder usar el TextBlock desde cualquier método
     private TextBlock saludo = null!;
-
     public VentanaCS()
     {
         InitializeComponent();
@@ -35,7 +34,7 @@ public class VentanaCS : Window
         // 3) Crea el Button con el mismo texto que en MainWindow
         var MyButton = new Button()
         {
-            Content = "Pulsame",
+            Content = "Púlsame",
             Margin = new Thickness(0, 10, 0, 0),
         };
         MyButton.Click += OnButtonClick;
@@ -62,7 +61,7 @@ public class VentanaCS : Window
     }
     private void OnButtonClick(object? sender, RoutedEventArgs e)
     {
-        MyButton.Content = "¡Me has pulsado!";
+        saludo.Text = "¡Me has pulsado!";
     }
 
 }
