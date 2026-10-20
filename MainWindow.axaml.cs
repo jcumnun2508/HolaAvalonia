@@ -14,16 +14,17 @@ public partial class MainWindow : Window
         saludo.Foreground = Brushes.Crimson;
         var extra = new Button
         {
-            Content = "Botón creado en C#",
+            Content = "Botón en C#",
             Margin = new Thickness(0, 10, 0, 0)
         };
             panel.Children.Add(extra);
-            MyButton.Click += Boton_Click;
+            extra.Click += VentanaCS_Click;
 
         }
-    private void Boton_Click(object? sender, RoutedEventArgs e) 
+    private void VentanaCS_Click(object? sender, RoutedEventArgs e) 
     {
-        MyButton.Content = "¡Me has pulsado c#!";
+        new VentanaCS().Show();
+        
     }
 
     private void OnButtonClick(object? sender, RoutedEventArgs e)
