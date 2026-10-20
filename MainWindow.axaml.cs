@@ -10,9 +10,10 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         Title = "Triple T";
-        saludo.Text = "Saludos desde C#";
+        saludo.Text = "JavierCumplidoNúñez";
         saludo.Foreground = Brushes.Crimson;
         saludo.FontSize = 20;
+        saludo.Margin = new Thickness(10);
         var extra = new Button
         {
             Content = "Botón en C#",
@@ -30,7 +31,7 @@ public partial class MainWindow : Window
 
     private void OnButtonClick(object? sender, RoutedEventArgs e)
     {
-        MyButton.Content = "¡Me has pulsado!";
+        saludo.Text = "¡Me has pulsado!";
     }
 
 
