@@ -2,9 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Media;
-
 namespace HolaAvalonia;   // copia aquí el namespace de MainWindow.axaml.cs
-
 public class VentanaCS : Window
 {
     // Campo para poder usar el TextBlock desde cualquier método
@@ -13,7 +11,6 @@ public class VentanaCS : Window
     {
         InitializeComponent();
     }
-
     // Este método lo escribes tú: aquí se construye la interfaz
     private void InitializeComponent()
     {
@@ -29,8 +26,6 @@ public class VentanaCS : Window
             Margin = new Thickness(10)
         };
         saludo.Foreground = Brushes.Crimson;
-
-
         // 3) Crea el Button con el mismo texto que en MainWindow
         var MyButton = new Button()
         {
@@ -45,15 +40,12 @@ public class VentanaCS : Window
             Margin = new Thickness(0, 10, 0, 0),
         };
         boton.Click += VentanaMW_Click;
-
-
         // 4) Asigna a Content un StackPanel que contenga los dos
         var panel = new StackPanel { Margin = new Thickness(20) };
         panel.Children.Add(saludo);
         panel.Children.Add(MyButton);
         panel.Children.Add(boton);
         Content = panel;
-
     }
     private void VentanaMW_Click(object? sender, RoutedEventArgs e)
     {

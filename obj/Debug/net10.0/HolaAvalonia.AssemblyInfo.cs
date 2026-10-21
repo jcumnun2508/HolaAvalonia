@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolaAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb87e13c1445a854fe3c88f0d75efdb13f827765")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c76f2bd6d7b2b19df8a7a14b2dff0bb6de0c92c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolaAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolaAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
